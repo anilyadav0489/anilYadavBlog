@@ -1,0 +1,43 @@
+.image-section{
+    position: relative;
+    margin-top: 50px;
+    width: 100%;
+    max-height: 400px;
+    border: 1px solid black;
+}
+.image-container img{
+    width: 100%;
+    max-height: 400px;
+}
+.my-name{
+    position: absolute;
+    right: 50px;
+    top: 10px;
+    perspective: 400px;
+}
+
+.my-name span{
+    border-radius: 10px;
+    display: inline-block;
+    border: 1px solid purple;
+    background: linear-gradient(to right, rgb(130, 0, 130), rgb(71, 0, 71));
+    font-size: 4rem;
+    color: white;
+    width: 90px;
+    height: 90px;
+    transform: rotateY(40deg);
+    animation: moveNRotate 2s linear forwards;
+    animation-iteration-count: infinite; 
+}
+
+@keyframes moveNRotate {
+    0% {
+        transform: rotateY(10deg);
+    }
+    50% {
+        transform: rotateY(40deg);
+    }
+    100% {
+        transform: rotateY(10deg);
+    }
+}

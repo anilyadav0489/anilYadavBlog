@@ -1,0 +1,31 @@
+.story-section{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    border: 1px solid black;
+    background: #8888ff;
+
+}
+
+
+.text-section-title{
+    display: block;
+    text-align: left;
+    padding: 1rem 2rem;
+    font-size: 2rem;
+
+}
+
+.text-section{
+    display: inline-block;
+    width: 60%;
+    text-align: center;
+}
+.story-image-container{
+    text-align: end;
+    display: inline-block;
+    width: 40%;
+    background-size: cover;
+}

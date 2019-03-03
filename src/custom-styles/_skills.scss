@@ -1,0 +1,61 @@
+.skills-section{
+    position: relative;
+    width: 100%;
+    border: 1px solid black;
+}
+.skills-box{
+    border: 1px solid blue;
+    position: relative;
+    margin: 3rem;
+}
+.skills-heading{
+    font-size: 2rem;
+}
+.skills{
+    display: flex;
+    margin: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+.skill{
+    padding-top: 1rem;
+    font-size: 1.1rem;
+}
+.skill-bar-1{
+    background: skyblue;
+    width: 80%;
+}
+.skill-bar-2{
+    background: rgb(25, 118, 155);
+    color: white;
+    width: 80%;
+}
+.skill-bar-3{
+    background: skyblue;
+    width: 70%;
+}
+.skill-bar-4{
+    background: rgb(25, 118, 155);
+    color: white;
+    width: 60%;
+}
+.skill-bar-5{
+    background: skyblue;
+    width: 50%;
+}
+.skill-bar-6{
+    background: rgb(25, 118, 155);
+    color: white;
+    width: 50%;
+}
+.skill-bar-7{
+    background: skyblue;
+    width: 30%;
+}
+.skill-bar-8{
+    background: rgb(25, 118, 155);
+    color: white;
+    width: 30%;
+}

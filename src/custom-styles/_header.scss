@@ -1,0 +1,41 @@
+.header-section{
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    border: 1px solid black;
+    background: linear-gradient(#8888ff, #3b5998);
+    z-index: 1;
+    display: flex;
+}
+
+.header-left{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 30%;
+}
+
+.header-left span{
+    color: white;
+    padding-left: 20px;
+    font-size: 1.2rem;
+}
+
+.header-right{
+    display: flex;
+    justify-content: flex-end;
+    width: 70%;
+    align-items: center;
+}
+.header-right span a{
+    color: #ddd;
+    padding: 0 15px;
+    cursor: pointer;
+    text-decoration: none;
+    position: relative;
+    padding-top: 40px; 
+    margin-top: -40px;
+}
+.header-right span a:hover{
+    color: white;
+}

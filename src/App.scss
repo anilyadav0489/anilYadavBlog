@@ -1,5 +1,15 @@
+@import './custom-styles/header.scss';
+@import './custom-styles/contact.scss';
+@import './custom-styles/imageSection.scss';
 @import './custom-styles/page.scss';
+@import './custom-styles/skills.scss';
+@import './custom-styles/story.scss';
+@import './custom-styles/testimonials.scss';
+@import './custom-styles/work.scss';
 
+*{
+  box-sizing: border-box;
+}
 .App {
   text-align: center;
 }
