@@ -1,6 +1,6 @@
 .story-section{
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
     position: relative;
     width: 100%;
@@ -10,22 +10,29 @@
 }
 
 
-.text-section-title{
-    display: block;
-    text-align: left;
-    padding: 1rem 2rem;
-    font-size: 2rem;
-
-}
-
 .text-section{
     display: inline-block;
     width: 60%;
     text-align: center;
+    margin: auto;
+    min-height: 35rem;
 }
 .story-image-container{
-    text-align: end;
     display: inline-block;
-    width: 40%;
-    background-size: cover;
+    max-width: 40%;
+    margin-right: 0.1rem;
+}
+.my-pic{
+    height: 36rem;
+}
+
+.text-section-title{
+    display: block;
+    text-align: center;
+    padding: 3rem 2rem 2rem 2rem;
+    font-size: 2rem;
+
+}
+.story-content{
+    padding: 1rem;
 }

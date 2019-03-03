@@ -7,7 +7,17 @@ class Story extends Component {
             <div id="story-section" className="story-section">
                 <div className="text-section">
                     <span className="text-section-title">My Story</span>
-                    <span>sdfsdlkflskdflkjsdlfkjldjflksdljfklskdjflksdlkfjlskdfjlksdjflksjdlfksjlkd
+                    <span className="story-content">sdfsdlkflskdflkjsdlfkjldjflksdljfklskdjflksdlkfjlskdfjlksdjflksjdlfksjlkd
+                    fjlskdjflskdjflksjdlfksjdlkfjsldkfjlskdfjlskdjflksdjflkjdlfksjdlkfjlskdfjlks
+                    fjlskdjflskdjflksjdlfksjdlkfjsldkfjlskdfjlskdjflksdjflkjdlfksjdlkfjlskdfjlks
+                    fjlskdjflskdjflksjdlfksjdlkfjsldkfjlskdfjlskdjflksdjflkjdlfksjdlkfjlskdfjlks
+                    fjlskdjflskdjflksjdlfksjdlkfjsldkfjlskdfjlskdjflksdjflkjdlfksjdlkfjlskdfjlks
+                    fjlskdjflskdjflksjdlfksjdlkfjsldkfjlskdfjlskdjflksdjflkjdlfksjdlkfjlskdfjlks
+                    fjlskdjflskdjflksjdlfksjdlkfjsldkfjlskdfjlskdjflksdjflkjdlfksjdlkfjlskdfjlks
+                    fjlskdjflskdjflksjdlfksjdlkfjsldkfjlskdfjlskdjflksdjflkjdlfksjdlkfjlskdfjlks
+                    fjlskdjflskdjflksjdlfksjdlkfjsldkfjlskdfjlskdjflksdjflkjdlfksjdlkfjlskdfjlks
+                    fjlskdjflskdjflksjdlfksjdlkfjsldkfjlskdfjlskdjflksdjflkjdlfksjdlkfjlskdfjlks
+                    fjlskdjflskdjflksjdlfksjdlkfjsldkfjlskdfjlskdjflksdjflkjdlfksjdlkfjlskdfjlks
                     fjlskdjflskdjflksjdlfksjdlkfjsldkfjlskdfjlskdjflksdjflkjdlfksjdlkfjlskdfjlks
                     fjlskdjflskdjflksjdlfksjdlkfjsldkfjlskdfjlskdjflksdjflkjdlfksjdlkfjlskdfjlks
                     fjlskdjflskdjflksjdlfksjdlkfjsldkfjlskdfjlskdjflksdjflkjdlfksjdlkfjlskdfjlks
@@ -18,7 +28,7 @@ class Story extends Component {
                         flskdfjlskdfjlskdfjl</span>
                 </div>
                 <div className="story-image-container">
-                    <img src={myPic} alt="" />                
+                    <img src={myPic} alt="" className="my-pic"/>                
                 </div>
             </div>
         );

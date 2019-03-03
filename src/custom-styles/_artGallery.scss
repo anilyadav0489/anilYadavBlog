@@ -1,0 +1,36 @@
+.gallery-section{
+    position: fixed;
+    width: 98%;
+    height: calc(100vh - 4rem);
+    background-color: rgba(0, 0, 0, 0.9);
+    border: 0.25rem solid white;
+    z-index: 1;
+    top: 3.34rem;
+    left: 1%;
+    
+}
+.close-button{
+    position: absolute;
+    right: 1rem;
+    width: 3rem;
+    height: 2rem;
+    background: radial-gradient(rgb(253, 90, 90), red);
+    color: white;
+    border: none;
+    cursor: pointer;
+    z-index: 2;
+}
+.gallery-image-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+
+}
+.galary-image{
+    max-width: 99%;
+    min-height: 10rem;
+    max-height: 99%;
+}
