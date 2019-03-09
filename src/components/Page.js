@@ -6,6 +6,7 @@ import Skills from './Skills';
 import Testimonials from './Testimonials';
 import Contact from './Contact';
 import Header from './Header';
+import Footer from './Footer';
 import ArtGallery from './ArtGallery';
 
 class Page extends Component {
@@ -29,6 +30,7 @@ class Page extends Component {
                 <Skills />
                 <Testimonials />
                 <Contact />
+                <Footer />
             </div>
         );
     }

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import backgroundImage1 from '../resources/image-section-background.png'
-import backgroundImage2 from '../resources/runningOnTheBeach.jpg'
+import backgroundImage1 from '../resources/Background1.jpg'
+import backgroundImage2 from '../resources/Background2.jpg'
 
 class ImageSection extends Component {
     
