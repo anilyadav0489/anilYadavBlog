@@ -5,7 +5,7 @@ class Skills extends Component {
         return (
             <div id="skills-section" className="skills-section">
                 <div className="skills-box">
-                    <div className="skills-heading">Skills</div>
+                    <div className="skills-heading"><span>Skills</span></div>
                     <div className="skills">
                         <div className="skill">React JS, Redux</div>
                         <div className="skill-bar-1">80%</div>

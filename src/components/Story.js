@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import myPic from '../resources/ANIL.JPG'
+import myPic from '../resources/Anil.JPG'
 
 class Story extends Component {
     render() {
@@ -7,8 +7,8 @@ class Story extends Component {
             <div id="story-section" className="story-section">
                 <div className="text-section">
                     <span className="text-section-title about-myself">
-                        <span>A</span><span>b</span><span>o</span><span>u</span><span>t</span><span className="space"> </span>
-                        <span>M</span><span>y</span><span>s</span><span>e</span><span>l</span><span>f</span>
+                        <span>A</span><span>B</span><span>O</span><span>U</span><span>T</span><span className="space"> </span>
+                        <span>M</span><span>E</span>
                     </span>
                     <span className="story-content">A software developer by profession, a kind human by nature,
                     and an artist by choice, this is what I feel I am. 

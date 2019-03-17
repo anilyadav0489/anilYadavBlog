@@ -5,20 +5,13 @@ class Contact extends Component {
         return (
             <div id="contact-section" className="contact-section">
                 <div className="contact-box">
-                    <div className="contact-heading"><span>Get In Touch</span></div>
-                    <div className="contact-form">
+                    <div className="contact-heading"><span>Reach Me At</span></div>
                         <div className="contact-details">
-                            <input type="text" placeholder="Your Name"></input>
-                            <input type="text" placeholder="Your Email"></input>
-                            <input type="text" placeholder="Subject"></input>
+                            <div>E-Mail: <a href="mailto:JustAnotherAnil@gmail.com">JustAnotherAnil@gmail.com</a></div>
+                            <div>Mobile: +91-84597-32047</div>
+                            <div>LinkedIn: <a href="https://www.linkedin.com/in/anil-yadav-53b67333/" target="_blank">https://www.linkedin.com/in/anil-yadav-53b67333/</a></div>
+                            <div>GitHub: <a href="https://github.com/anilyadav0489" target="_blank">https://github.com/anilyadav0489</a></div>
                         </div>
-                        <div className="contact-details-message">
-                            <textarea placeholder="Message"></textarea>
-                        </div>
-                        <div className="contact-footer">
-                            <input type="button" className="send-mail" value="Send email"></input>
-                        </div>
-                    </div>
                 </div>
             </div>
         );

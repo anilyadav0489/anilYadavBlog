@@ -10,13 +10,21 @@
     position: relative;
     margin: 3rem;
     background: #fff;
+    min-height: 25rem;
 }
 .projects-heading{
-    font-size: 2rem;
+    margin-top:1rem;
+}
+.projects-heading span{
+    font-size: 3rem;
+    font-weight: 500;
+    background: linear-gradient(blue, green)  0 0 no-repeat;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
 .projects{
     display: flex;
-    margin: 2rem;
+    margin: 3rem 2rem 2rem 2rem;
     justify-content: center;
     align-items: center;
     
@@ -36,4 +44,21 @@
     width: 25rem;
     max-height: 13rem;
 
+}
+
+@media screen and (max-width: 51rem){
+    .projects{
+        flex-direction: column;
+        margin: 3rem 2rem 2rem 2rem;
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+    .projects span{
+        display: block;
+    }
+    .project {
+        width: 90%;
+        margin: 1rem;
+    }
 }

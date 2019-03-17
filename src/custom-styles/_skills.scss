@@ -10,8 +10,16 @@
     position: relative;
     margin: 3rem;
 }
-.skills-heading{
+.skills-heading {
+    margin-top: 1rem;
+} 
+.skills-heading span{
     font-size: 2rem;
+    font-size: 3rem;
+    font-weight: 500;
+    background: linear-gradient(black 30%, white)  0 0 no-repeat;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
 .skills{
     display: flex;
