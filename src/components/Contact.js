@@ -7,7 +7,7 @@ class Contact extends Component {
                 <div className="contact-box">
                     <div className="contact-heading"><span>Reach Me At</span></div>
                         <div className="contact-details">
-                            <div>E-Mail: <a href="mailto:JustAnotherAnil@gmail.com">JustAnotherAnil@gmail.com</a></div>
+                            <div>E-Mail: <a href="mailto:AnilYadav0489@gmail.com">AnilYadav0489@gmail.com</a></div>
                             <div>Mobile: +91-96431-36238</div>
                             <div>LinkedIn: <a href="https://www.linkedin.com/in/anil-yadav-53b67333/" target="_blank">https://www.linkedin.com/in/anil-yadav-53b67333/</a></div>
                             <div>GitHub: <a href="https://github.com/anilyadav0489" target="_blank">https://github.com/anilyadav0489</a></div>
