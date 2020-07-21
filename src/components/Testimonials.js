@@ -39,26 +39,25 @@ class Testimonials extends Component {
     componentWillUnmount(){
         clearInterval(this.reoccur);
     }
+    getStyle = (index)=>{
+        return ({
+            'animation': 'move-left 5s infinite'
+        });
+    }
+    
     render() {
         return (
             <div id="testimonials-section" className="testimonials-section">
                 <div className="testimony-content-box">
                     <div className="testimonials-heading"><span>Testimonials</span></div>
                     <div className="testimonials">
-                        <div className="current-testimony">
-                            <div >
-                                <img src={this.state.currentTestimony.writer} className="testimony-writer-image" alt="writer" />
-                            </div>
+                    {this.testimonials.map((testimony, index)=>{
+                        return (<div className="testimony" style={this.getStyle(index)}>
+                            <div ><img src={this.state.currentTestimony.writer} className="testimony-writer-image" alt="writer" /></div>
                             <div className="testimony-content">{this.state.currentTestimony.comments}</div>
                             <div className="testimony-author-info">{this.state.currentTestimony.name}</div>
-                        </div>
-                        <div className="current-testimony">
-                            <div >
-                                <img src={this.state.nextTestimony.writer} className="testimony-writer-image" alt="writer" />
-                            </div>
-                            <div className="testimony-content">{this.state.nextTestimony.comments}</div>
-                            <div className="testimony-author-info">{this.state.nextTestimony.name}</div>
-                        </div>
+                        </div>);
+                    })}
                     </div>
 
                 </div>

@@ -31,18 +31,19 @@
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    width: 200%;
+    width: 100%;
     justify-content: flex-start;
     align-items: center;
-    animation: move-left 5s infinite;
+    
 
 }
-.current-testimony{
-    position: relative;
-    display: inline-block;
-    margin: 0 5%;
-    width: 40%;
+.testimony{
+    position: absolute;
+    width: 90%;
+    left: 5%;
+    top: 5%;
 }
+
 @keyframes move-left{
     0%{
         left: 0;

@@ -18,7 +18,7 @@ class Work extends Component {
                             </a>
                         </div>
                         <div className="project"><span>Web: The Excel Way</span>
-                            <a href="https://sheltered-basin-39570.herokuapp.com/" target="_blank">
+                            <a href="https://web-as-excel.herokuapp.com/" target="_blank">
                                 <img src={rosterSnap} alt="" className="project-image"/>
                             </a>
                         </div>
